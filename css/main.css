@@ -1,0 +1,180 @@
+@import url(./setting.css);
+
+.po-style-0 {
+  position: relative;
+}
+
+.po-style,
+.po-style-2 {
+  position: absolute;
+  left: 90px;
+  top: 90px;
+}
+
+.li-drop {
+  position: static !important;
+}
+
+.slm-bar {
+  position: static !important;
+}
+
+.dis-none {
+  display: none !important;
+}
+
+.dis-block {
+  display: block !important;
+}
+
+.top {
+  width: 78% !important;
+  height: 450px;
+  top: 278px !important;
+  left: 58% !important;
+  transform: translate(-50%, -50%) !important;
+  background: rgb(240, 239, 239) !important;
+}
+
+.drop-a:active {
+  background: rgb(240, 239, 239) !important;
+}
+
+.slm-bar .text-body {
+  font-size: 12px !important;
+}
+
+.slm-bar h6 {
+  font-size: 14px !important;
+}
+
+.slm-bar .container {
+  height: 380px !important;
+}
+
+.slm-bar .container .list-unstyled li {
+  margin-top: 15px !important;
+}
+
+.slide2 {
+  background-image: url("../image/Highlight-Surface-Pro-9-Platinum-FY24HOL_VP5-1920x600.jfif");
+}
+
+.slide3 {
+  background-image: url("../image/bck2.jfif");
+}
+
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+  height: 400px !important;
+}
+
+.slide4 {
+  background-image: url("../image/slide1.avif");
+}
+
+.slide5 {
+  background-image: url("../image/slide2.avif");
+}
+
+.slide-style-0 {
+  position: relative;
+}
+
+.slide-style {
+  position: absolute;
+  left: 50px;
+  top: 60px;
+}
+
+.fa-bars {
+  font-size: 30px !important;
+  font-weight: 100 !important;
+  margin-right: 10px !important;
+}
+
+.icon-search {
+  font-size: 20px !important;
+}
+
+.icon-hide {
+  margin-right: 15px !important;
+}
+
+footer a {
+  font-size: 13px;
+  color: rgb(60, 60, 60);
+}
+
+
+
+@media screen and (max-width: 1200px) {
+  .po-style {
+    left: 60px;
+    top: 80px;
+  }
+
+  .box-1 {
+    flex-wrap: wrap;
+  }
+
+  .fa-bars,
+  .icon-search {
+    display: block !important;
+    margin-right: 15px !important;
+  }
+
+  .dis-block {
+    display: none !important;
+  }
+  .dis-none {
+    display: block !important;
+  }
+
+  /* .logo-img img {
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+  } */
+}
+
+@media screen and (max-width: 1500px) {
+  .po-style-2 {
+    width: 500px !important;
+    left: 50px;
+    top: 70px;
+  }
+
+  .box-icon-hide {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .po-style-2 {
+    width: 400px !important;
+    left: 30px;
+    top: 34px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .po-style {
+    left: 50px;
+    top: 80px;
+  }
+
+  .po-style-2 {
+    width: 320px !important;
+    height: 348px !important;
+    left: 30px;
+    top: 34px;
+  }
+
+  .icon-img {
+    width: 60%;
+    height: 100%;
+  }
+}
